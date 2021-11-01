@@ -1,0 +1,51 @@
+body{
+    background-color: pink;
+}
+
+.contenedor1{
+    width: 80%;
+    padding: 15px;
+    border: 5px;
+}
+
+.contenedor2{
+    width: 90%;
+    padding: 20px;
+}
+
+.contenedor3{
+    width: 50%;
+    padding: 20px;
+}
+
+@media(min-width: 576px){
+    .contenedor2{
+        width: 70%;
+        margin: auto;
+    }
+    .contenedor3{
+        width: 70%;
+        margin: auto;
+    }
+    body{
+        background-color: yellow;
+    }
+}
+
+@media(min-width:768px){
+    .contenedor2{
+        background-color: blue;
+    }
+    .contenedor3{
+        background-color: red;
+    }
+}
+
+@media(min-width:992px){
+    .contenedor2{
+        border: 10px;
+    }
+    .contenedor3{
+        border: 10px;
+    }
+}
